@@ -1,10 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends Component {
-  render() {
-    return <div>Hello from App.js</div>;
-  }
-}
+const App = () => <div>App</div>;
 
 export default App;
